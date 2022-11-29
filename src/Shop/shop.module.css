@@ -1,0 +1,42 @@
+.shopContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.productContainer{
+    width: 80%;
+    padding: 0 10px;
+}
+.cartContainer{
+    width: 20%;
+    position: fixed;
+    right: 0;
+    padding: 0 10px;
+    border-left: 1px solid rgb(228, 206, 206);
+    height: 600px;
+}
+.cartContainer h1{
+    text-align: center;
+    font-weight: 500;
+    color: orangered;
+    padding: 10px 0;
+}
+.cartContainer h2{
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.cartContainer p{
+    font-size: 18px;
+    margin: 10px 0;
+    opacity: 0.9;
+}
+.cartContainer button{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+}
